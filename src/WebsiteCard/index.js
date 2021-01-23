@@ -26,7 +26,10 @@ export default function WebCard() {
               Give your brand a home with a custom domain. Then create a website
               with built-in marketing tools to help you launch it.
             </SmallText>
-            <Link>Websites and domains <FontAwesomeIcon icon={faArrowRight} className="arrow" /></Link>
+            <Link>
+              Websites and domains{" "}
+              <FontAwesomeIcon icon={faArrowRight} className="arrow" />
+            </Link>
           </TextSection>
           <SectionImage>
             <img src={Img1} alt="" />
@@ -39,6 +42,10 @@ export default function WebCard() {
               Send the right messages on all the right channels. Build emails,
               social ads, landing pages, postcards, and more from one place.
             </SmallText>
+            <Link>
+              Websites and domains{" "}
+              <FontAwesomeIcon icon={faArrowRight} className="arrow" />
+            </Link>
           </TextSection>
 
           <SectionImage>

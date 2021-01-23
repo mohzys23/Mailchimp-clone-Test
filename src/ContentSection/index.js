@@ -7,7 +7,7 @@ import {
 } from "./contentsection.style";
 
 import WebsiteCard from '../WebsiteCard';
-
+import HelpCard from '../HelpCard';
 
 
 
@@ -23,6 +23,7 @@ export default function ContentSection() {
         </TextSection>
 
         <WebsiteCard />
+        <HelpCard />
 
       </Container>
     );

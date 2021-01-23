@@ -15,7 +15,7 @@ export const TextSection = styled.div`
 export const Text = styled.h1`
   font-size: 2rem;
   letter-spacing: 0;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 1.25rem;
 `;
 
