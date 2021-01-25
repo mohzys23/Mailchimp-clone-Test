@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.style.js';
-import Nav from './Nav';
-import Hero from './Hero';
-import SectionContent from './ContentSection';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import SectionContent from './components/ContentSection';
+import Testimony from './components/Testimony';
+import Best from './components/Best';
+import Resources from './components/Resources';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -10,6 +15,10 @@ function App() {
     <Nav />
     <Hero />
     <SectionContent />
+    <Testimony />
+    <Best />
+    <Resources />
+    <Footer />
 
 
       {/* <header className="App-header">
