@@ -6,7 +6,7 @@ import SectionContent from './components/ContentSection';
 import Testimony from './components/Testimony';
 import Best from './components/Best';
 import Resources from './components/Resources';
-
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
     <Testimony />
     <Best />
     <Resources />
+    <Footer />
 
 
       {/* <header className="App-header">

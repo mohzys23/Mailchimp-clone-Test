@@ -24,7 +24,7 @@ width: 50%;
     display: block;
     width: 100%;
     height: auto;
-    z-index: 0;
+    
   }
 `;
 
