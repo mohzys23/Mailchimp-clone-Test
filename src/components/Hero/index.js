@@ -8,6 +8,7 @@ import {
     ImageSection
 } from './hero.style';
 import Img from "../../Assets/hero.png";
+import Fade from "react-reveal/Fade";
 
 export default function Hero() {
     return (
@@ -23,7 +24,9 @@ export default function Hero() {
           </TextSection>
 
           <ImageSection>
+            <Fade>
               <img src={Img} alt="" />
+            </Fade>
           </ImageSection>
         </div>
       </Container>
