@@ -11,6 +11,8 @@ import {
     ReachSection,
 } from './testimony.style';
 
+import Zoom from 'react-reveal/Zoom';
+
 export default function Testimony() {
     return (
       <Container>
@@ -36,7 +38,9 @@ export default function Testimony() {
           <SmallText>Results not typical.</SmallText>
         </Section>
         <ImageSection>
-          <img src={Img4} alt="" />
+          <Zoom>
+            <img src={Img4} alt="" />
+          </Zoom>
         </ImageSection>
       </Container>
     );
