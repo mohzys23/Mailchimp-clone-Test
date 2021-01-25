@@ -3,6 +3,7 @@ import './App.style.js';
 import Nav from './Nav';
 import Hero from './Hero';
 import SectionContent from './ContentSection';
+import Testimony from './Testimony';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Nav />
     <Hero />
     <SectionContent />
+    <Testimony />
 
 
       {/* <header className="App-header">
