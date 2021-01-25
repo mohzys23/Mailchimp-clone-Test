@@ -12,6 +12,7 @@ import {
 } from "./organise.style";
 import { smart } from "../../Data/data";
 import Img from '../../Assets/transition.png';
+import Zoom from "react-reveal/Zoom";
 
 
 export default function Organise() {
@@ -22,7 +23,10 @@ export default function Organise() {
         {smart.map((item) => {
           return (
             <div className="card">
-              <img src={item.img} alt="" />
+              <Zoom>
+                <img src={item.img} alt="" />
+              </Zoom>
+
               <div className="card-text">
                 <Heading>{item.heading}</Heading>
                 <SmallText>{item.paragraph}</SmallText>

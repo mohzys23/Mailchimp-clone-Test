@@ -10,7 +10,7 @@ import {
   Link,
 } from "./helpcard.style";
 import {help} from "../../Data/data";
-import FadeIn from "react-fade-in";
+import Zoom from "react-reveal/Zoom";
 
 export default function HelpCard() {
   return (
@@ -26,9 +26,9 @@ export default function HelpCard() {
             </TextSection>
 
             <ImageSection key={flow}>
-              <FadeIn>
+              <Zoom>
                 <img src={item.img} alt="" />
-              </FadeIn>
+              </Zoom>
             </ImageSection>
           </Section>
         );
