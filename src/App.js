@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import SectionContent from './components/ContentSection';
 import Testimony from './components/Testimony';
 import Best from './components/Best';
-
+import Resources from './components/Resources';
 
 
 
@@ -17,6 +17,7 @@ function App() {
     <SectionContent />
     <Testimony />
     <Best />
+    <Resources />
 
 
       {/* <header className="App-header">

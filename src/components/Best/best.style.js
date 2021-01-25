@@ -38,7 +38,7 @@ export const ImageSection = styled.div`
   margin-right: auto;
   text-align: center;
   bottom: 50;
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   margin-top: -8rem;
   padding: 0 1.875rem;
