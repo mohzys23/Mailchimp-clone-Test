@@ -8,7 +8,7 @@ import {
     ImageSection
 } from './hero.style';
 import Img from "../../Assets/hero.png";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 export default function Hero() {
     return (
@@ -24,9 +24,9 @@ export default function Hero() {
           </TextSection>
 
           <ImageSection>
-            <Fade>
+            <Zoom>
               <img src={Img} alt="" />
-            </Fade>
+            </Zoom>
           </ImageSection>
         </div>
       </Container>
