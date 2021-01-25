@@ -7,7 +7,7 @@ import {
     Button,
     ImageSection
 } from './hero.style';
-import Img from '../Assets/hero.png';
+import Img from "../../Assets/hero.png";
 
 export default function Hero() {
     return (
