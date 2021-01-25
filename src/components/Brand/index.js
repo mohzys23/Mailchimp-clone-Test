@@ -1,5 +1,5 @@
 import React from 'react';
-import {brand} from '../Data/data';
+import {brand} from '../../Data/data';
 import {
     Container,
     Text,

@@ -9,7 +9,7 @@ import {
   ImageSection,
   Link,
 } from "./helpcard.style";
-import {help} from "../Data/data";
+import {help} from "../../Data/data";
 import FadeIn from "react-fade-in";
 
 export default function HelpCard() {

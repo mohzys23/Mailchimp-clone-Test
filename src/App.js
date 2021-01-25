@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.style.js';
-import Nav from './Nav';
-import Hero from './Hero';
-import SectionContent from './ContentSection';
-import Testimony from './Testimony';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import SectionContent from './components/ContentSection';
+import Testimony from './components/Testimony';
+import Best from './components/Best';
+
+
+
 
 function App() {
   return (
@@ -12,6 +16,7 @@ function App() {
     <Hero />
     <SectionContent />
     <Testimony />
+    <Best />
 
 
       {/* <header className="App-header">

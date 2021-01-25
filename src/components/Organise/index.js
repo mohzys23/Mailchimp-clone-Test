@@ -10,8 +10,8 @@ import {
   Button,
   ImageSection
 } from "./organise.style";
-import { smart } from "../Data/data";
-import Img from '../Assets/transition.png';
+import { smart } from "../../Data/data";
+import Img from '../../Assets/transition.png';
 
 
 export default function Organise() {

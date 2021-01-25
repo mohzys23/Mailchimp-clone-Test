@@ -1,6 +1,6 @@
 import React from 'react';
-import Img3 from "../Assets/street.png";
-import Img4 from "../Assets/persons.jpg";
+import Img3 from "../../Assets/street.png";
+import Img4 from "../../Assets/persons.jpg";
 import {
     Container,
     SmallText, 

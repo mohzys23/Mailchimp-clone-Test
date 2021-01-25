@@ -1,5 +1,5 @@
 import React from 'react';
-import {achieve} from '../Data/data';
+import {achieve} from '../../Data/data';
 import {
     Container,
     Text,

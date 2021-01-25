@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   margin-top: 20rem;
   align-items: center;
+  padding-bottom: 5rem;
 `;
 
 export const Section = styled.div`
@@ -44,6 +45,7 @@ export const SmallText = styled.p`
   font-weight: 400;
   color: #727070;
   font-size: 0.8125rem;
+  margin-top: 1.25rem;
 `;
 
 export const ReachSection = styled.div`
