@@ -8,7 +8,6 @@ import {
     TopSection,
     Button,
     Link,
-    TextContent,
     BottomSection
 } from './resources.style';
 import Img from '../../Assets/resource1.jpg'
