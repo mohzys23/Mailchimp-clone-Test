@@ -11,7 +11,7 @@ import {
     ReachSection,
 } from './testimony.style';
 
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
 
 export default function Testimony() {
     return (
