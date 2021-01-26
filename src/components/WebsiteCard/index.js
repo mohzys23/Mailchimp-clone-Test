@@ -8,8 +8,8 @@ import {
   SectionImage,
   Link
 } from "./websitecard.style";
-import Img1 from '../Assets/website.png';
-import Img2 from "../Assets/website2.png";
+import Img1 from '../../Assets/website.png';
+import Img2 from "../../Assets/website2.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 

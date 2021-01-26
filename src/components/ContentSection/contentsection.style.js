@@ -25,6 +25,13 @@ export const Text = styled.h1`
   font-size: 3.375rem;
   letter-spacing: -0.03125rem;
   font-weight: 300;
+
+  @media (max-width: 575px) {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03125rem;
+  }
 `;
 
 export const SmallText = styled.p`
@@ -36,6 +43,15 @@ export const SmallText = styled.p`
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.875rem;
+
+  @media (max-width: 575px) {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 

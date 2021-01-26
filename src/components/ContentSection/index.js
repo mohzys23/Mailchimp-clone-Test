@@ -8,7 +8,9 @@ import {
 
 import WebsiteCard from '../WebsiteCard';
 import HelpCard from '../HelpCard';
-
+import Brand from '../Brand';
+import Achieve from '../Achieve';
+import Organise from '../Organise';
 
 
 export default function ContentSection() {
@@ -24,6 +26,10 @@ export default function ContentSection() {
 
         <WebsiteCard />
         <HelpCard />
+        <Brand />
+        <Achieve />
+        <Organise />
+
 
       </Container>
     );

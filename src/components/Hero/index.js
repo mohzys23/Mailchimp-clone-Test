@@ -7,7 +7,8 @@ import {
     Button,
     ImageSection
 } from './hero.style';
-import Img from '../Assets/hero.png';
+import Img from "../../Assets/hero.png";
+import Zoom from "react-reveal/Zoom";
 
 export default function Hero() {
     return (
@@ -23,7 +24,9 @@ export default function Hero() {
           </TextSection>
 
           <ImageSection>
+            <Zoom>
               <img src={Img} alt="" />
+            </Zoom>
           </ImageSection>
         </div>
       </Container>
