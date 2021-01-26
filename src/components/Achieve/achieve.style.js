@@ -18,12 +18,26 @@ export const Text = styled.h1`
   letter-spacing: -0.03125rem;
   text-align: center;
   font-weight: 300;
+
+  @media (max-width: 575px) {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03125rem;
+  }
 `;
 
 export const ImageSection = styled.div`
   width: 75%;
   display: flex;
   margin: 0 auto;
+
+  @media (max-width: 575px ) {
+    width: 100%;
+    max-width: 100em;
+    flex-wrap: wrap;
+  }
   
 
   .achieve-box {
@@ -31,6 +45,10 @@ export const ImageSection = styled.div`
     margin: 1.875rem auto;
         padding-left: 1.875rem;
     padding-right: 1.875rem;
+
+    @media(max-width: 575px) {
+      width: 100%;
+    }
 }
   }
 `;
@@ -40,6 +58,13 @@ export const Heading = styled.h2`
   margin: 1.25rem 0;
   font-weight: 300;
   line-height: 1.3;
+
+  @media (max-width: 575px) {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 0;
+  }
 `;
 
 export const SmallText = styled.p`
@@ -47,6 +72,12 @@ export const SmallText = styled.p`
   margin-bottom: 1.875rem;
   line-height: 1.5;
   font-weight: 400;
+
+  @media (max-width: 575px) {
+    font-size: 1em;
+    font-weight: 400; 
+    line-height: 1.5;
+  }
 `;
 
 export const Link = styled.a`

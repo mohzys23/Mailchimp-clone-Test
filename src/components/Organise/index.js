@@ -18,7 +18,10 @@ import Zoom from "react-reveal/Zoom";
 export default function Organise() {
   return (
     <Container>
-      <Text>See how it all comes together</Text>
+      <div className="text-box">
+        <Text>See how it all comes together</Text>
+      </div>
+
       <Section>
         {smart.map((item) => {
           return (
