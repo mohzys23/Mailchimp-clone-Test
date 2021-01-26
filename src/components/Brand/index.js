@@ -12,11 +12,14 @@ import {
 export default function Brand() {
     return (
       <Container>
-        <Text>Grow with Mailchimp</Text>
-        <Heading>
-          Our marketing platform helps brands like these build their thing and
-          keep it growing.
-        </Heading>
+        <div className="mobile-box">
+          <Text>Grow with Mailchimp</Text>
+          <Heading>
+            Our marketing platform helps brands like these build their thing and
+            keep it growing.
+          </Heading>
+        </div>
+
         <ImageSection>
           {brand.map((item) => {
             return (

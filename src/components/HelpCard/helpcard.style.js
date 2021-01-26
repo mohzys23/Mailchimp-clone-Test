@@ -13,23 +13,44 @@ export const Container = styled.div`
 export const Section = styled.div`
   padding: 3.75rem 0;
   display: flex;
+
+  @media (max-width: 575px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Text = styled.h1`
   font-size: 3.375rem;
   letter-spacing: -0.03125rem;
   font-weight: 300;
+
+  @media (max-width: 575px) {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03125rem;
+  }
 `;
 
 export const TextSection = styled.div`
   order: 1;
   padding-left: 8.33333333%;
   width: 50%;
+
+  @media (max-width: 575px) {
+    width: 100%;
+    padding-left: 0;
+  }
 `;
 
 
 export const TextHeading = styled.h2`
-
+  @media (max-width: 575px) {
+    margin-top: 3.75rem;
+    font-size: 1.65rem;
+    font-weight: 300;
+    line-height: 1.1;
+  }
 `;
 
 export const SmallText = styled.p`
@@ -54,9 +75,10 @@ export const Link = styled.a`
 `;
 
 export const ImageSection = styled.div`
-  
   width: 50%;
-  
+  @media (max-width: 575px) {
+    width: 100%;
+  }
 
   img {
     display: block;
