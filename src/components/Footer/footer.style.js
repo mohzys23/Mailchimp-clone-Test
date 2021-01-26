@@ -17,9 +17,18 @@ export const Wrapper = styled.div`
   justify-content: center;
   color: #241c15;
 
+  @media (max-width: 575px) {
+    flex-wrap: wrap;
+  }
+
   div {
     height: auto;
     margin: 0 0.625rem;
+
+    @media (max-width: 575px) {
+      width: 100%;
+      margin-top: 2rem;
+    }
 
     p {
       font-size: 1rem;
@@ -47,17 +56,41 @@ export const Wrapper = styled.div`
     width: 15%;
     margin: 0 1.875rem;
 
+    @media (max-width: 575px) {
+      width: 100%;
+      margin: 2rem 0 0 1rem;
+    }
+
     .logo {
       margin-top: -0.5rem;
     }
 
     h4 {
       margin: 1rem 0;
+
+      @media (max-width: 575px) {
+        width: 60%;
+        margin: 1rem 0;
+        font-size: 0.9rem;
+      }
     }
   }
 
   .box2 {
     width: 100%;
     margin-top: 5rem;
+
+    @media (max-width: 575px) {
+      width: 50%;
+      margin-top: 2rem;
+    }
+
+    h4 {
+      @media (max-width: 575px) {
+        width: 100%;
+        margin: 1rem 0;
+        font-size: 0.9rem;
+      }
+    }
   }
 `;

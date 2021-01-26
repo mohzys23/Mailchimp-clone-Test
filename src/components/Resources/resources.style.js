@@ -7,6 +7,11 @@ export const Container = styled.div`
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+
+  @media(max-width: 575px) {
+    width: 100%;
+    margin-top: 15rem;
+  }
 `;
 
 
@@ -17,6 +22,16 @@ export const Text = styled.h1`
   letter-spacing: -0.03125rem;
   font-weight: 300;
   line-height: 1;
+
+  @media (max-width: 575px) {
+    text-align: center!important
+    width: 100%;
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03125rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 
@@ -25,11 +40,23 @@ export const SmallText = styled.p`
   margin-bottom: 4.5rem;
   margin-left: auto;
   margin-right: auto;
+
+  @media (max-width: 575px) {
+    width: 80%;
+    color: #403b3b;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
 `;
 
 
 export const TopSection = styled.div`
   display: flex;
+
+  @media(max-width: 575px) {
+    flex-wrap: wrap;
+  }
 
   .box1 {
     width: 60%;
@@ -37,12 +64,24 @@ export const TopSection = styled.div`
     margin-bottom: 1%;
     background-color: #fdece5;
     padding: 7.5rem 8rem 8.125rem;
-    position: relative h3 {
+    position: relative;
+
+      @media(max-width: 575px) {
+        width: 75%;
+            padding-left: 3.75rem;
+    padding-right: 3.75rem
+      }
+    
+    h3 {
       font-size: 0.875rem;
       letter-spacing: 0.03125rem;
       margin-bottom: 0.625rem;
       font-weight: 500;
       line-height: 1;
+
+      @media (max-width: 575px) {
+        
+      }
     }
     h1 {
       font-size: 3.375rem;
@@ -50,6 +89,8 @@ export const TopSection = styled.div`
       font-weight: 300;
       line-height: 1;
       margin-bottom: 2.5rem;
+
+      
     }
 
     p {
@@ -58,6 +99,7 @@ export const TopSection = styled.div`
       font-size: 1em;
       font-weight: 400;
       line-height: 1.5;
+     
     }
   }
 
@@ -72,11 +114,17 @@ export const TopSection = styled.div`
     border: 1px solid #8c8c8c;
     border-top: none;
 
+    @media(max-width: 575px) {
+      width: 80%;
+      margin: 0 auto;
+    }
+
     img {
       object-fit: cover;
     width: 100%;
     height: auto;
     display: block;
+    
 }
     }
 
@@ -86,6 +134,10 @@ export const TopSection = styled.div`
       padding-bottom: 0.625rem;
       font-weight: 500;
       line-height: 1;
+      @media(max-width: 575px) {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+      }
     }
 
     h1 {
@@ -112,6 +164,10 @@ export const TopSection = styled.div`
           font-weight: 400;
           line-height: 1.5;
           font-size: 1em;
+
+          @media(max-width: 575px) {
+            font-size: 1.5em;
+          }
         }
       }
     }
@@ -133,16 +189,29 @@ export const Link = styled.a`
   margin-top: 4rem;
   font-size: 0.9375rem;
   padding-bottom: -1rem;
+
+  @media(max-width: 575) {
+    font-size: 1rem;
+  }
 `;
 
 export const BottomSection = styled.div`
   width: 100%;
   display: flex;
   flex-basic: auto;
+  @media (max-width: 575px) {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
 
   .box1 {
     width: 34%;
     margin-right: 1%;
+    @media (max-width: 575px) {
+      width: 80%;
+      margin: 0 auto;
+      height: auto;
+    }
 
     img {
       width: 100%;
@@ -159,12 +228,23 @@ export const BottomSection = styled.div`
     background-color: #e8f1fa;
     cursor: pointer;
 
+    @media (max-width: 575px) {
+      width: 80%;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+
     .img {
       width: 50%;
       padding: 1.25rem;
       -ms-flex-item-align: center;
       align-self: center;
-      
+
+      @media (max-width: 575px) {
+        width: 100%;
+        margin-top: 2rem;
+      }
 
       img {
         width: 100%;
@@ -180,6 +260,16 @@ export const BottomSection = styled.div`
       padding-top: 5.9375rem;
       padding-bottom: 1.8375rem;
       padding-right: 1.25rem;
+      @media (max-width: 575px) {
+        width: 100%;
+        padding-top: 2.9375rem;
+      }
+
+      .link {
+        @media (max-width: 575px) {
+          padding-left: 2rem;
+        }
+      }
 
       h2 {
         font-size: 1rem;
@@ -188,6 +278,10 @@ export const BottomSection = styled.div`
         margin-bottom: 0.625rem;
         font-weight: 500;
         line-height: 1;
+
+        @media (max-width: 575px) {
+          padding-left: 2rem;
+        }
       }
 
       h1 {
@@ -195,6 +289,10 @@ export const BottomSection = styled.div`
         font-weight: 300;
         line-height: 1.1;
         margin-bottom: 0.625rem;
+
+        @media (max-width: 575px) {
+          padding-left: 2rem;
+        }
       }
 
       p {
@@ -202,6 +300,9 @@ export const BottomSection = styled.div`
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5;
+        @media (max-width: 575px) {
+          padding-left: 2rem;
+        }
       }
     }
   }
