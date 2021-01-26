@@ -6,12 +6,17 @@ export const Container = styled.div`
   position: relative;
   padding-bottom: 14rem;
 
+  @media(max-width: 575px) {
+    padding-bottom: 8rem;
+  }
+
   .lower-card {
     width: 50%;
     margin: 0 auto;
 
     @media (max-width: 575px) {
-      
+      width: 80%;
+      margin: 0 auto;
     }
   }
   @media (max-width: 575px) {
@@ -106,6 +111,13 @@ export const SmallTextBellow = styled.p`
     font-size: 1rem;
     font-weight: 300;
         margin-top: 1.875rem;
+
+        @media(max-width: 575px) {
+          #403b3b;
+              font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+        }
 }
 `;
 
@@ -114,6 +126,13 @@ export const TextBellow = styled.h1`
   letter-spacing: -0.03125rem;
   font-weight: 300;
   line-height: 1;
+
+  @media (max-width: 575px) {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03125rem;
+  }
 `;
 
 export const Button = styled.button`
@@ -132,15 +151,28 @@ export const Button = styled.button`
 `;
 
 export const ImageSection = styled.div`
-    width: 75%;
-    margin: 0 0;
-    text-align: center;
-    margin-left: 7rem;
-    bottom: 50;
-    z-index: 1;
+  width: 75%;
+  margin: 0 0;
+  text-align: center;
+  margin-left: 7rem;
+  bottom: 50;
+  z-index: 0;
+  position: absolute;
+  margin-top: -1rem;
+
+  @media (max-width: 575px) {
+    width: 80%;
+    margin-left: 2.5rem;
+    margin-right: auto;
     position: absolute;
-    margin-top: -1rem;
+  }
+
   img {
-      width: 50%;
+    width: 50%;
+
+    @media (max-width: 575px) {
+      width: 100%;
+      height: auto;
+    }
   }
 `;
