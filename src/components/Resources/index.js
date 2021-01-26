@@ -75,7 +75,7 @@ function Resources() {
                 marketing.
               </p>
 
-              <Link>Learn More</Link>
+              <Link className="link">Learn More</Link>
             </div>
           </div>
         </BottomSection>

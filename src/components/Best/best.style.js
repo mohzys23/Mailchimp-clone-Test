@@ -18,6 +18,17 @@ export const Text = styled.h1`
   line-height: 1;
   font-size: 3.375rem;
   letter-spacing: -0.03125rem;
+
+  @media(max-width: 575px) {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.03125rem;
+}
+
+
+  }
 `;
 
 export const Button = styled.button`
@@ -30,6 +41,10 @@ export const Button = styled.button`
   border: none;
   -webkit-box-shadow: 0 0 0 0.0625rem rgba(0, 124, 137, 0.3) inset;
   box-shadow: inset 0 0 0 0.0625rem rgba(0, 124, 137, 0.3);
+
+  @media(max-width: 575px) {
+    margin-bottom: 4rem;
+  }
 `;
 
 export const ImageSection = styled.div`
@@ -43,7 +58,18 @@ export const ImageSection = styled.div`
   margin-top: -8rem;
   padding: 0 1.875rem;
 
+  @media (max-width: 575px) {
+    margin-top: var(--topOffsetMobile);
+    width: var(--imageSizeMobile);
+  }
+
   img {
     height: auto;
+
+    @media (max-width: 575px) {
+      max-width: 100%;
+      height: auto;
+      margin-top: -1rem;
+    }
   }
 `;
