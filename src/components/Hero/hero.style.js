@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   @media (max-width: 575px) {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 14rem;
   }
 
   .wrapper {
@@ -94,7 +94,6 @@ export const ImageSection = styled.div`
   display: block;
   @media (max-width: 575px) {
     width: 100%;
-
     margin-top: 3.75rem;
     position: relative;
   }
@@ -103,5 +102,9 @@ export const ImageSection = styled.div`
     max-width: 90%;
     height: auto;
     padding-left: 0.625rem;
+    @media (max-width: 575px) {
+      max-width: 100%;
+      height: auto;
+    }
   }
 `;
